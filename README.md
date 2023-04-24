@@ -1,7 +1,9 @@
 # monmaster_scraping
 
-Simple outil pour télécharger automatiquement les dossiers complets monmaster
-- Dans le fichier .py, remplacer les ****** par dans l'ordre
+Simple outil pour télécharger automatiquement les dossiers complets monmaster.
+
+*Mode d'emploi :*
+- Dans le fichier .py, remplacer les ****** par dans l'ordre :
   - le code de la formation (dans l'URL pour accéder à la liste des candidatures)
   - votre identifiant
   - votre mot de passe
@@ -10,5 +12,6 @@ Simple outil pour télécharger automatiquement les dossiers complets monmaster
 Le fichier ressemble à cela (codes étudiants anonymisés ici) :
 ![Exemple no_candidats](https://user-images.githubusercontent.com/386604/234013834-1ea3caa8-267d-4c0e-9aaa-54a98b8c1a90.png)
 - Lancer le script : `python monmaster_scraping.py`
-- Si interruption inopinée, enlever les candidats déjà téléchargés de la liste "no_candidats.csv" et recommencer
+- Aller se faire un café
+- Si interruption inopinée, enlever les candidats déjà téléchargés du haut de la liste "no_candidats.csv" et relancer le script
 
