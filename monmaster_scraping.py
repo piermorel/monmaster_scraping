@@ -42,7 +42,7 @@ elem.send_keys(Keys.RETURN)
 # In[ ]:
 
 time.sleep(4)
-for index, row in cand.iterrows
+for index, row in cand.iterrows():
 
     print("Telechargement candidat ",index," code ",row.no)
     
