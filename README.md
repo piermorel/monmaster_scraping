@@ -2,7 +2,7 @@
 
 Simple outil pour télécharger automatiquement les dossiers complets monmaster.
 
-*Mode d'emploi :*
+**Mode d'emploi :**
 - Placer les quatre fichiers .py dans un dossier
 - Si vous n'êtes pas sur Mac, dans le fichier `monmaster_scraping.py` remplacer la ligne `driver = webdriver.Safari()` selon votre plateforme/navigateur internet 
 https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/
