@@ -4,7 +4,7 @@ Simple outil pour télécharger automatiquement les dossiers complets monmaster.
 
 *Mode d'emploi :*
 - Placer les quatre fichiers .py dans un dossier
-- Si vous n'êtes pas sur Mac, dans le fichier monmaster_scraping.py remplacer la ligne `driver = webdriver.Safari()` selon votre plateforme/navigateur internet 
+- Si vous n'êtes pas sur Mac, dans le fichier `monmaster_scraping.py` remplacer la ligne `driver = webdriver.Safari()` selon votre plateforme/navigateur internet 
 https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/
 
 - Créer un sous-dossier pour une formation
@@ -12,7 +12,7 @@ https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers
 
 ![Capture d’écran 2023-04-26 à 10 37 26](https://user-images.githubusercontent.com/386604/234519453-a9e93deb-6749-436a-bf8c-e8ec64fe6742.png)
 
-- Dans le fichier parametres.py, remplacer les ****** par dans l'ordre :
+- Dans le fichier `parametres.py`, remplacer les ****** par dans l'ordre :
   - votre identifiant
   - votre mot de passe
   - Le nom du dossier créé
@@ -20,7 +20,7 @@ https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers
   
   [Capture d’écran 2023-04-26 à 10 37 16](https://user-images.githubusercontent.com/386604/234519377-5ec5ff02-0982-4bc5-900f-cf39197927c2.png)
 
-- Générer la liste des candidats à télécharger en lancant le script : `python generer_nocandidats.py' Cela doit créer un fichier no_candidats.csv dans le dossier des scripts
+- Générer la liste des candidats à télécharger en lancant le script : `python generer_nocandidats.py' Cela doit créer un fichier `no_candidats.csv dans le dossier des scripts
 
 - Lancer le script de téléchargement : `python monmaster_scraping.py`
 - Aller se faire un (long) café 
