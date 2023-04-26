@@ -15,7 +15,7 @@ https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers
 - Dans le fichier `parametres.py`, remplacer les ****** par dans l'ordre :
   - votre identifiant
   - votre mot de passe
-  - Le nom du dossier créé
+  - Le chemin et nom du sous-dossier créé plus tôt
   - La référence de votre formation : On le trouve soit dans la colonne "référence" dans la liste des formations candidatables, soit dans l'onglet "Formation candidatable" une fois dans votre formation (sous le cadre rouge de censure dans cette capture)
   
   ![Capture d’écran 2023-04-26 à 10 37 16](https://user-images.githubusercontent.com/386604/234519377-5ec5ff02-0982-4bc5-900f-cf39197927c2.png)
@@ -24,7 +24,7 @@ https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers
 
 - Lancer le script de téléchargement : `python monmaster_scraping.py`
 - Aller se faire un (long) café 
-- Déplacer tous les fichiers téléchargés dans le dossier de votre formation que vous avez créé
-- Relancer le script `python generer_nocandidats.py' pour vérifier s'il y a des fichiers manquants (si oui, relancer le script de téléchargement)
+- Déplacer tous les fichiers téléchargés dans le sous-dossier de la formation créé plus tôt
+- Relancer le script `python generer_nocandidats.py' pour vérifier s'il y a des fichiers manquants (si oui, relancer le script de téléchargement, etc. )
 - Si vous souhaitez renommer les fichiers au format Nom_Prenom-code.pdf, lancez le script `python renommer_fichiers.py
 
