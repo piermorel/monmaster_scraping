@@ -18,7 +18,7 @@ https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers
   - Le nom du dossier créé
   - La référence de votre formation : On le trouve soit dans la colonne "référence" dans la liste des formations candidatables, soit dans l'onglet "Formation candidatable" une fois dans votre formation
   
-  [Capture d’écran 2023-04-26 à 10 37 16](https://user-images.githubusercontent.com/386604/234519377-5ec5ff02-0982-4bc5-900f-cf39197927c2.png)
+  ![Capture d’écran 2023-04-26 à 10 37 16](https://user-images.githubusercontent.com/386604/234519377-5ec5ff02-0982-4bc5-900f-cf39197927c2.png)
 
 - Générer la liste des candidats à télécharger en lancant le script : `python generer_nocandidats.py' Cela doit créer un fichier `no_candidats.csv dans le dossier des scripts
 
