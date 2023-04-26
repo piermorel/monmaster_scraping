@@ -20,7 +20,7 @@ https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers
   
   ![Capture d’écran 2023-04-26 à 10 37 16](https://user-images.githubusercontent.com/386604/234519377-5ec5ff02-0982-4bc5-900f-cf39197927c2.png)
 
-- Générer la liste des candidats à télécharger en lancant le script : `python generer_nocandidats.py` Cela doit créer un fichier `no_candidats.csv dans le dossier des scripts
+- Générer la liste des candidats à télécharger en lancant le script : `python generer_nocandidats.py` Cela doit créer un fichier `no_candidats.csv` dans le dossier des scripts
 
 - Lancer le script de téléchargement : `python monmaster_scraping.py`
 - Aller se faire un (long) café 
