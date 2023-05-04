@@ -59,6 +59,7 @@ for index, row in cand.iterrows():
     time.sleep(1)
     elem = driver.find_element(By.XPATH,"//a[contains(text(), 'Télécharger la candidature')]")
     elem.click()
+    #driver.execute_script('arguments[0].click()', elem)
     
     time.sleep(8)
     
