@@ -28,3 +28,6 @@ https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers
 - Relancer le script `python generer_nocandidats.py' pour vérifier s'il y a des fichiers manquants (si oui, relancer le script de téléchargement, etc. )
 - Si vous souhaitez renommer les fichiers au format Nom_Prenom-code.pdf, lancez le script `python renommer_fichiers.py
 
+**En cas d'erreur**
+
+Si vous rencontrez une erreur "not clickable", commentez avec # la ligne 61 `elem.click()` du script `monmaster_scraping.py` et décommentez la ligne 62 `driver.execute_script('arguments[0].click()', elem)`
